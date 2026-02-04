@@ -15,8 +15,8 @@ It models a multi-direction intersection with:
 
 Design a software module that controls traffic lights at an intersection with **North–South** and **East–West** directions:
 
-- Each direction has a traffic light with **Red, Yellow, Green** states.[web:37]
-- Green / Yellow / Red durations are **configurable per phase**.[web:39]
+- Each direction has a traffic light with **Red, Yellow, Green** states.
+- Green / Yellow / Red durations are **configurable per phase**.
 - At any point, only **non-conflicting directions** may be green.
 - The system must support:
   - Start / stop of the controller.
