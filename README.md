@@ -63,7 +63,7 @@ The control loop runs on a background task and uses `CancellationToken` and lock
 
 ## 🔑 Patterns & Interview Talking Points
 
-- **State-driven design** – Lights are a small state machine (Red–Green–Yellow).[web:37]
+- **State-driven design** – Lights are a small state machine (Red–Green–Yellow).
 - **Strategy-ready** – `TimingPlanService` can be swapped for different strategies.
 - **Thread-safety**
   - Central controller loop, with lock around updates.
